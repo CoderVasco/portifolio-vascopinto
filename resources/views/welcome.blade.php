@@ -92,88 +92,68 @@
             <div class="col-md-3">
                 <ul id="portfolio-sidebar" class="list-group">
                     <li class="list-group-item active" data-target="#project1">
-                        <i class="bi bi-folder2-open"></i> Projeto 1
+                        <i class="bi bi-folder2-open"></i> Teconect API
                     </li>
                     <li class="list-group-item" data-target="#project2">
-                        <i class="bi bi-folder2-open"></i> Projeto 2
+                        <i class="bi bi-folder2-open"></i> CDA - Clínica
                     </li>
                     <li class="list-group-item" data-target="#project3">
-                        <i class="bi bi-folder2-open"></i> Projeto 3
+                        <i class="bi bi-folder2-open"></i> Marine Records
                     </li>
                     <li class="list-group-item" data-target="#project4">
-                        <i class="bi bi-folder2-open"></i> Projeto 4
+                        <i class="bi bi-folder2-open"></i> CB&B 
                     </li>
                     <li class="list-group-item" data-target="#project5">
-                        <i class="bi bi-folder2-open"></i> Projeto 5
+                        <i class="bi bi-folder2-open"></i> Tecnideia
                     </li>
                     <li class="list-group-item" data-target="#project6">
-                        <i class="bi bi-folder2-open"></i> Projeto 6
-                    </li>
-                    <li class="list-group-item" data-target="#project7">
-                        <i class="bi bi-folder2-open"></i> Projeto 7
-                    </li>
-                    <li class="list-group-item" data-target="#project8">
-                        <i class="bi bi-folder2-open"></i> Projeto 8
+                        <i class="bi bi-folder2-open"></i> Teconect API
                     </li>
                 </ul>
             </div>
             <div class="col-md-9">
                 <div id="project1" class="portfolio-content active">
                     <div class="no-download-wrapper">
-                        <img src="{{asset('img/store.jpg')}}" alt="Projeto 1" class="img-fluid rounded shadow-sm mb-3 no-download">
+                        <img src="{{asset('img/landingpag.jpg')}}" alt="Projeto 1" class="img-fluid rounded shadow-sm mb-3 no-download">
                     </div>
-                    <h3 class="project-title">Projeto 1</h3>
-                    <p class="project-description">Descrição breve do projeto 1 e as tecnologias usadas.</p>
+                    <h3 class="project-title">Teconect API</h3>
+                    <p class="project-description">Landing page da API Teconect, feito com Bootstrap 5, HTML, CSS3, JavaScript para animações e efeitos, usando esquema de template Blade do Laravel.</p>
                 </div>
                 <div id="project2" class="portfolio-content">
                     <div class="no-download-wrapper">
-                        <img src="{{asset('img/store.jpg')}}" alt="Projeto 2" class="img-fluid rounded shadow-sm mb-3 no-download">
+                        <img src="{{asset('img/cda.jpg')}}" alt="Projeto 2" class="img-fluid rounded shadow-sm mb-3 no-download">
                     </div>
-                    <h3 class="project-title">Projeto 2</h3>
-                    <p class="project-description">Descrição breve do projeto 2 e as tecnologias usadas.</p>
+                    <h3 class="project-title">Clínica dos Animais</h3>
+                    <p class="project-description">Website Oficial da CDA, feito com as tecnologias: Bootstrap 5, HTML, CSS3, JavaScript, usei o Laravel para aprimorar o SEO e construção do Sitemap automatizado e as rotas. </p>
                 </div>
                 <div id="project3" class="portfolio-content">
                     <div class="no-download-wrapper">
-                        <img src="{{asset('img/store.jpg')}}" alt="Projeto 3" class="img-fluid rounded shadow-sm mb-3 no-download">
+                        <img src="{{asset('img/marine.jpg')}}" alt="Projeto 3" class="img-fluid rounded shadow-sm mb-3 no-download">
                     </div>
-                    <h3 class="project-title">Projeto 3</h3>
-                    <p class="project-description">Descrição breve do projeto 3 e as tecnologias usadas.</p>
+                    <h3 class="project-title">Marine Records</h3>
+                    <p class="project-description">Site Oficial da gravadora Marine Records, Bootstrap 5, HTML, CSS3, JavaScript foi usado para construção da interface intuitiva e responsiva.</p>
                 </div>
                 <div id="project4" class="portfolio-content">
                     <div class="no-download-wrapper">
-                        <img src="{{asset('img/store.jpg')}}" alt="Projeto 4" class="img-fluid rounded shadow-sm mb-3 no-download">
+                        <img src="{{asset('img/cbeb.jpg')}}" alt="Projeto 4" class="img-fluid rounded shadow-sm mb-3 no-download">
                     </div>
-                    <h3 class="project-title">Projeto 4</h3>
-                    <p class="project-description">Descrição breve do projeto 4 e as tecnologias usadas.</p>
+                    <h3 class="project-title">CB&B - Transportes</h3>
+                    <p class="project-description">Site Oficial da empresa, para exibição dos serviços e apresentação formal da empresa, usei Bootstrap 5, HTML, CSS3, JavaScript para construção das views.</p>
                 </div>
                 <div id="project5" class="portfolio-content">
                     <div class="no-download-wrapper">
-                        <img src="{{asset('img/store.jpg')}}" alt="Projeto 5" class="img-fluid rounded shadow-sm mb-3 no-download">
+                        <img src="{{asset('img/tecnideia.jpg')}}" alt="Projeto 5" class="img-fluid rounded shadow-sm mb-3 no-download">
                     </div>
-                    <h3 class="project-title">Projeto 5</h3>
-                    <p class="project-description">Descrição breve do projeto 5 e as tecnologias usadas.</p>
+                    <h3 class="project-title">Tecnideia</h3>
+                    <p class="project-description">Site Oficial da empresa, com sistema integrado, Bootstrap 5, HTML, CSS3, JavaScript foi usado para construção da interface intuitiva e responsiva, usei o Laravel para o back-end.</p>
                 </div>
                 <div id="project6" class="portfolio-content">
                     <div class="no-download-wrapper">
-                        <img src="{{asset('img/store.jpg')}}" alt="Projeto 6" class="img-fluid rounded shadow-sm mb-3 no-download">
+                        <img src="{{asset('img/teconectapi.jpg')}}" alt="Projeto 6" class="img-fluid rounded shadow-sm mb-3 no-download">
                     </div>
-                    <h3 class="project-title">Projeto 6</h3>
-                    <p class="project-description">Descrição breve do projeto 6 e as tecnologias usadas.</p>
-                </div>
-                <div id="project7" class="portfolio-content">
-                    <div class="no-download-wrapper">
-                        <img src="{{asset('img/store.jpg')}}" alt="Projeto 7" class="img-fluid rounded shadow-sm mb-3 no-download">
-                    </div>
-                    <h3 class="project-title">Projeto 7</h3>
-                    <p class="project-description">Descrição breve do projeto 7 e as tecnologias usadas.</p>
-                </div>
-                <div id="project8" class="portfolio-content">
-                    <div class="no-download-wrapper">
-                        <img src="{{asset('img/store.jpg')}}" alt="Projeto 8" class="img-fluid rounded shadow-sm mb-3 no-download">
-                    </div>
-                    <h3 class="project-title">Projeto 8</h3>
-                    <p class="project-description">Descrição breve do projeto 8 e as tecnologias usadas.</p>
-                </div>
+                    <h3 class="project-title">Teconect API</h3>
+                    <p class="project-description">Página da Documentação - API Teconect.</p>
+                </div> 
             </div>
         </div>
         <div class="text-center mt-4">
@@ -262,19 +242,19 @@
 <section id="ebooks" class="py-5">
     <div class="container">
         <h2 class="text-center mb-5">Ebooks</h2>
-        <p class="text-center mb-4">Explore os meus ebooks sobre desenvolvimento e tecnologia.</p>
+        <p class="text-center mb-4">Explore os meus ebooks sobre desenvolvimento pessoal e negócio</p>
         <div class="row">
             <div class="col-md-3">
                 <ul id="ebooks-sidebar" class="list-group">
                     <li class="list-group-item active" data-target="#ebook1">
-                        <i class="bi bi-book"></i> Ebook 1
+                        <i class="bi bi-book"></i> Legalizar o seu Negócio 
                     </li>
-                    <li class="list-group-item" data-target="#ebook2">
+                    <!-- <li class="list-group-item" data-target="#ebook2">
                         <i class="bi bi-book"></i> Ebook 2
                     </li>
                     <li class="list-group-item" data-target="#ebook3">
                         <i class="bi bi-book"></i> Ebook 3
-                    </li>
+                    </li> -->
                 </ul>
             </div>
             <div class="col-md-9">
@@ -282,13 +262,13 @@
                     <div class="ebook-image-wrapper no-download">
                         <img src="{{asset('img/ebook1.jpg')}}" class="img-fluid rounded shadow-sm mb-3" alt="Ebook 1">
                     </div>
-                    <h5 class="card-title">Ebook 1</h5>
-                    <p class="card-text">Uma breve descrição do Ebook 1.</p>
+                    <h5 class="card-title">Como Legaliza a sua Empresa em Angola a partir de Casa</h5>
+                    <p class="card-text">Legalize seu Negócio em Angola Sem Sair de Casa! Realize seu sonho de empreender em Angola sem complicações. Com o nosso ebook é a chave para você legalizar sua empresa sem gastar uma fortuna com consultor.</p>
                     <div class="btn-wrapper">
-                        <a href="#" class="btn btn-outline-primary">Ver mais</a>
+                        <a href="https://consumer.kuenha.com/marketplace/5db36544-5104-43c0-8c30-04464291a9bd" class="btn btn-outline-primary">Ver mais</a>
                     </div>
                 </div>
-                <div id="ebook2" class="ebook-content">
+                <!-- <div id="ebook2" class="ebook-content">
                     <div class="ebook-image-wrapper no-download">
                         <img src="{{asset('img/ebook2.jpg')}}" class="img-fluid rounded shadow-sm mb-3" alt="Ebook 2">
                     </div>
@@ -307,7 +287,7 @@
                     <div class="btn-wrapper">
                         <a href="#" class="btn btn-outline-primary">Ver mais</a>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

@@ -37,10 +37,10 @@
         <div class="footer-bottom d-flex justify-content-between align-items-center">
             <p>&copy; 2024 {{config('app.name')}}. Todos os direitos reservados.</p>
             <div>
-                <a href="#" class="text-light me-2"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="text-light me-2"><i class="bi bi-instagram"></i></a>
-                <a href="#" class="text-light me-2"><i class="bi bi-youtube"></i></a>
-                <a href="#" class="text-light"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.facebook.com/vasco.gouveiapinto" class="text-light me-2" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/vasco.gouveiapinto" class="text-light me-2" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.youtube.com/@toma_nota" class="text-light me-2" target="_blank"><i class="bi bi-youtube"></i></a>
+                <a href="https://www.linkedin.com/in/vasco-pinto-b7b783262" class="text-light" target="_blank"><i class="bi bi-linkedin"></i></a>
             </div>
         </div>
     </div>
