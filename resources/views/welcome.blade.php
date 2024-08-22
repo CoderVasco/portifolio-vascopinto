@@ -101,7 +101,7 @@
                         <i class="bi bi-folder2-open"></i> Marine Records
                     </li>
                     <li class="list-group-item" data-target="#project4">
-                        <i class="bi bi-folder2-open"></i> CB&B 
+                        <i class="bi bi-folder2-open"></i> CB&B
                     </li>
                     <li class="list-group-item" data-target="#project5">
                         <i class="bi bi-folder2-open"></i> Tecnideia
@@ -153,7 +153,7 @@
                     </div>
                     <h3 class="project-title">Teconect API</h3>
                     <p class="project-description">Página da Documentação - API Teconect.</p>
-                </div> 
+                </div>
             </div>
         </div>
         <div class="text-center mt-4">
@@ -227,9 +227,10 @@
                             <ul>
                                 <li>HTML, CSS, JavaScript, PHP, React.js, Laravel</li>
                                 <li>GitHub, MySQL, Web Server, Zabbix, Photoshop, Windows Server 2016, Webmail</li>
-                                <li>Engenharia de Prompt, Helpdesk</li>
+                                <li>Engenharia de Prompt, Helpdesk, SEO, WordPress</li>
                             </ul>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -247,7 +248,7 @@
             <div class="col-md-3">
                 <ul id="ebooks-sidebar" class="list-group">
                     <li class="list-group-item active" data-target="#ebook1">
-                        <i class="bi bi-book"></i> Legalizar o seu Negócio 
+                        <i class="bi bi-book"></i> Legalizar o seu Negócio
                     </li>
                     <!-- <li class="list-group-item" data-target="#ebook2">
                         <i class="bi bi-book"></i> Ebook 2
