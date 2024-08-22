@@ -21,10 +21,9 @@ Este projeto é o meu portfólio pessoal, desenvolvido para demonstrar minhas ha
 
 - Animações modernas e interativas em várias seções.
 - Proteção de imagens contra download.
-- Selo de verificação inspirado no Facebook.
-- Navegação intuitiva com animações e transições suaves.
+- Navegação intuitiva com animações e transições suaves. 
 - Apresentação de projetos em forma de sidebar com seleção dinâmica.
-- Modo escuro e claro com alternância suave.
+- Mostrar o botão quando a página for rolada para baixo
 
 ## Instalação
 
