@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const overlay = document.getElementById('portfolio-overlay');
         overlay.style.display = 'flex'; // Mostra a sobreposição
         setTimeout(() => {
-            window.open('../portifolio/portfólio_criativo_2024_Vasco_Pinto.pdf', '_blank');
+            window.open('../portifolio/portfolio_criativo_2024_Vasco_Pinto.pdf', '_blank');
             overlay.style.display = 'none'; // Esconde a sobreposição após abrir o PDF
         }, 3000); // Atraso de 3 segundos para a animação
     });
