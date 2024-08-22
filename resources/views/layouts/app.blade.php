@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="ccduU6x1DDOnrRFELqlDacb04QBltIuT2ValjaJXTWo" />
     <meta name="description" content="Vasco Pinto - Desenvolvedor Full-stack especializado em soluções web. Explore projectos em desenvolvimento de software, consultoria TI e inovação tecnológica.">
 
     <!-- Meta Tags para Open Graph (Facebook, LinkedIn, etc.) -->
