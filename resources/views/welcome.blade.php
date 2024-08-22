@@ -195,83 +195,112 @@
     </div>
 </div>
 
+<!-- Currículo section -->
 <section id="resume" class="py-5 bg-light">
     <div class="container">
         <h2 class="text-center mb-5">Currículo</h2>
-        <div class="resume-section mb-4">
-            <h3><i class="bi bi-briefcase-fill"></i> Experiência Profissional</h3>
-            <div class="resume-item">
-                <p><strong>Tecnideia</strong> - CTO & Desenvolvedor Web</p>
-                <p class="text-muted">Janeiro 2021 - Presente, Angola</p>
-                <ul>
-                    <li>Criação e manutenção de websites funcionais e intuitivos.</li>
-                    <li>Garantia da qualidade e eficiência do código.</li>
-                    <li>Colaboração com equipes multidisciplinares e solução ágil de problemas técnicos.</li>
-                    <li>Implementação de medidas de segurança para proteger os sites contra possíveis ameaças.</li>
-                    <li>Atualização constante com as últimas tendências e tecnologias.</li>
+        <div class="row">
+            <div class="col-md-3">
+                <ul id="resume-sidebar" class="list-group">
+                    <li class="list-group-item active" data-target="#experience">
+                        <i class="bi bi-briefcase-fill"></i> Experiência Profissional
+                    </li>
+                    <li class="list-group-item" data-target="#education">
+                        <i class="bi bi-mortarboard-fill"></i> Educação
+                    </li>
+                    <li class="list-group-item" data-target="#skills">
+                        <i class="bi bi-tools"></i> Habilidades
+                    </li>
                 </ul>
             </div>
-        </div>
-        <div class="resume-section mb-4">
-            <h3><i class="bi bi-mortarboard-fill"></i> Educação</h3>
-            <div class="resume-item">
-                <p><strong>Universidade De Belas</strong> - Licenciatura em Engenharia Informática</p>
-                <p class="text-muted">Março 2019 - 2024, Angola</p>
-                <p>Desenvolvimento de habilidades sólidas na criação de aplicações web, estudos em coordenação de projetos, engenharia de inteligência artificial, gestão de servidores web, administração de redes e monitoramento de infraestrutura com Zabbix.</p>
-            </div>
-        </div>
-        <div class="resume-section">
-            <h3><i class="bi bi-tools"></i> Habilidades</h3>
-            <div class="resume-item">
-                <ul>
-                    <li>HTML, CSS, JavaScript, PHP, React.js, Laravel</li>
-                    <li>GitHub, MySQL, Web Server, Zabbix, Photoshop, Windows Server 2016, Webmail</li>
-                    <li>Engenharia de Prompt, Helpdesk</li>
-                </ul>
+            <div class="col-md-9">
+                <div id="experience" class="resume-content active">
+                    <div class="resume-section mb-4">
+                        <h3><i class="bi bi-briefcase-fill"></i> Experiência Profissional</h3>
+                        <div class="resume-item">
+                            <p><strong>Tecnideia</strong> - CTO & Desenvolvedor Web</p>
+                            <p class="text-muted">Janeiro 2021 - Presente, Angola</p>
+                            <ul>
+                                <li>Criação e manutenção de websites funcionais e intuitivos.</li>
+                                <li>Garantia da qualidade e eficiência do código.</li>
+                                <li>Colaboração com equipes multidisciplinares e solução ágil de problemas técnicos.</li>
+                                <li>Implementação de medidas de segurança para proteger os sites contra possíveis ameaças.</li>
+                                <li>Atualização constante com as últimas tendências e tecnologias.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="education" class="resume-content">
+                    <div class="resume-section mb-4">
+                        <h3><i class="bi bi-mortarboard-fill"></i> Educação</h3>
+                        <div class="resume-item">
+                            <p><strong>Universidade De Belas</strong> - Licenciatura em Engenharia Informática</p>
+                            <p class="text-muted">Março 2019 - 2024, Angola</p>
+                            <p>Desenvolvimento de habilidades sólidas na criação de aplicações web, estudos em coordenação de projetos, engenharia de inteligência artificial, gestão de servidores web, administração de redes e monitoramento de infraestrutura com Zabbix.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="skills" class="resume-content">
+                    <div class="resume-section">
+                        <h3><i class="bi bi-tools"></i> Habilidades</h3>
+                        <div class="resume-item">
+                            <ul>
+                                <li>HTML, CSS, JavaScript, PHP, React.js, Laravel</li>
+                                <li>GitHub, MySQL, Web Server, Zabbix, Photoshop, Windows Server 2016, Webmail</li>
+                                <li>Engenharia de Prompt, Helpdesk</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
+
+<!-- Currículo ebooks -->
 <section id="ebooks" class="py-5">
     <div class="container">
         <h2 class="text-center mb-5">Ebooks</h2>
         <p class="text-center mb-4">Explore os meus ebooks sobre desenvolvimento e tecnologia.</p>
         <div class="row">
-            <div class="col-md-4">
-                <div class="card ebook-card shadow-lg border-0">
-                    <div class="ebook-image-wrapper">
-                        <img src="{{asset('img/ebook1.jpg')}}" class="card-img-top" alt="Ebook 1">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Ebook 1</h5>
-                        <p class="card-text">Uma breve descrição do Ebook 1.</p>
-                        <a href="#" class="btn btn-outline-primary">Ver mais</a>
-                    </div>
-                </div>
+            <div class="col-md-3">
+                <ul id="ebooks-sidebar" class="list-group">
+                    <li class="list-group-item active" data-target="#ebook1">
+                        <i class="bi bi-book"></i> Ebook 1
+                    </li>
+                    <li class="list-group-item" data-target="#ebook2">
+                        <i class="bi bi-book"></i> Ebook 2
+                    </li>
+                    <li class="list-group-item" data-target="#ebook3">
+                        <i class="bi bi-book"></i> Ebook 3
+                    </li>
+                </ul>
             </div>
-            <div class="col-md-4">
-                <div class="card ebook-card shadow-lg border-0">
-                    <div class="ebook-image-wrapper">
-                        <img src="{{asset('img/ebook2.jpg')}}" class="card-img-top" alt="Ebook 2">
+            <div class="col-md-9">
+                <div id="ebook1" class="ebook-content active">
+                    <div class="ebook-image-wrapper no-download">
+                        <img src="{{asset('img/ebook1.jpg')}}" class="img-fluid rounded shadow-sm mb-3" alt="Ebook 1">
                     </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Ebook 2</h5>
-                        <p class="card-text">Uma breve descrição do Ebook 2.</p>
-                        <a href="#" class="btn btn-outline-primary">Ver mais</a>
-                    </div>
+                    <h5 class="card-title">Ebook 1</h5>
+                    <p class="card-text">Uma breve descrição do Ebook 1.</p>
+                    <a href="#" class="btn btn-outline-primary">Ver mais</a>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card ebook-card shadow-lg border-0">
-                    <div class="ebook-image-wrapper">
-                        <img src="{{asset('img/ebook3.jpg')}}" class="card-img-top" alt="Ebook 3">
+                <div id="ebook2" class="ebook-content">
+                    <div class="ebook-image-wrapper no-download">
+                        <img src="{{asset('img/ebook2.jpg')}}" class="img-fluid rounded shadow-sm mb-3" alt="Ebook 2">
                     </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Ebook 3</h5>
-                        <p class="card-text">Uma breve descrição do Ebook 3.</p>
-                        <a href="#" class="btn btn-outline-primary">Ver mais</a>
+                    <h5 class="card-title">Ebook 2</h5>
+                    <p class="card-text">Uma breve descrição do Ebook 2.</p>
+                    <a href="#" class="btn btn-outline-primary">Ver mais</a>
+                </div>
+                <div id="ebook3" class="ebook-content">
+                    <div class="ebook-image-wrapper no-download">
+                        <img src="{{asset('img/ebook3.jpg')}}" class="img-fluid rounded shadow-sm mb-3" alt="Ebook 3">
                     </div>
+                    <h5 class="card-title">Ebook 3</h5>
+                    <p class="card-text">Uma breve descrição do Ebook 3.</p>
+                    <a href="#" class="btn btn-outline-primary">Ver mais</a>
                 </div>
             </div>
         </div>

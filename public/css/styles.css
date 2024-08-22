@@ -458,14 +458,58 @@ header {
     font-size: 2.5em;
     margin-bottom: 40px;
     color: #1a1a1a;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
-.resume-section {
+#resume-sidebar {
+    padding-left: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #00796b;
+    color: #ffffff;
+}
+
+#resume-sidebar .list-group-item {
+    background-color: #00796b;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 15px 20px;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+#resume-sidebar .list-group-item i {
+    margin-right: 10px;
+    font-size: 1.4em;
+}
+
+#resume-sidebar .list-group-item.active {
+    background-color: #004d40;
+    color: #00bfa5;
+    font-weight: bold;
+}
+
+#resume-sidebar .list-group-item:hover {
+    background-color: #00695c;
+}
+
+.resume-content {
+    display: none;
+    animation: fadeIn 0.5s ease-in-out;
     background-color: #ffffff;
-    border-radius: 15px;
     padding: 20px;
+    border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resume-content.active {
+    display: block;
 }
 
 .resume-section:hover {
@@ -524,6 +568,39 @@ header {
     color: #00bfa5;
 }
 
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@media (max-width: 768px) {
+    #resume-sidebar {
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    #resume h2 {
+        font-size: 2em;
+    }
+
+    .resume-section {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 320px) {
+    #resume h2 {
+        font-size: 1.5em;
+    }
+
+    .resume-section {
+        padding: 10px;
+    }
+}
+
 
 /* Ebooks Section */
 #ebooks {
@@ -538,55 +615,100 @@ header {
     margin-bottom: 20px;
 }
 
-.ebook-card {
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
-    border-radius: 15px;
+#ebooks-sidebar {
+    padding-left: 0;
+    border-radius: 10px;
     overflow: hidden;
-    position: relative;
-    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.ebook-card:hover {
-    transform: translateY(-15px) scale(1.02);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+#ebooks-sidebar .list-group-item {
+    background-color: #00796b;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 15px 20px;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+#ebooks-sidebar .list-group-item i {
+    margin-right: 10px;
+    font-size: 1.4em;
+}
+
+#ebooks-sidebar .list-group-item.active {
+    background-color: #004d40;
+    color: #00bfa5;
+    font-weight: bold;
+}
+
+#ebooks-sidebar .list-group-item:hover {
+    background-color: #00695c;
+}
+
+.ebook-content {
+    display: none;
+    animation: fadeIn 0.5s ease-in-out;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ebook-content.active {
+    display: block;
+}
+
+.ebook-content:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
 }
 
 .ebook-image-wrapper {
     overflow: hidden;
-    border-radius: 15px 15px 0 0;
+    border-radius: 15px;
+    position: relative;
+    height: 220px; /* Define a altura padrão para todas as imagens */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ebook-image-wrapper img {
-    border-radius: 15px 15px 0 0;
-    max-height: 220px;
-    object-fit: cover;
-    transition: transform 0.5s ease;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Garante que a imagem preencha o contêiner sem ser cortada */
+    transition: transform 0.5s ease, object-position 0.5s ease;
+    object-position: center; /* Centraliza a imagem */
 }
 
 .ebook-card:hover .ebook-image-wrapper img {
-    transform: scale(1.1);
+    transform: scale(1.2); /* Zoom na imagem */
+    object-fit: contain; /* Exibe a imagem inteira dentro do contêiner */
+    object-position: top; /* A imagem se ajusta para mostrar a parte superior */
 }
 
-.ebook-card .card-body {
-    padding: 20px;
-    text-align: center;
-    background-color: #ffffff;
-}
-
-.ebook-card .card-title {
+.ebook-content .card-title {
     font-size: 1.6em;
     color: #1a1a1a;
     margin-bottom: 15px;
     font-weight: 700;
+    text-align: center;
 }
 
-.ebook-card .card-text {
+.ebook-content .card-text {
     font-size: 1.1em;
     color: #666666;
     margin-bottom: 20px;
+    text-align: center;
 }
 
-.ebook-card .btn {
+.ebook-content .btn {
     background-color: transparent;
     border: 2px solid #00bfa5;
     color: #00bfa5;
@@ -596,10 +718,52 @@ header {
     transition: all 0.3s ease;
 }
 
-.ebook-card .btn:hover {
+.ebook-content .btn:hover {
     background-color: #00bfa5;
     color: #ffffff;
     border-color: #009688;
+}
+
+@media (max-width: 768px) {
+    #ebooks-sidebar {
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    #ebooks h2 {
+        font-size: 2em;
+    }
+
+    .ebook-content {
+        padding: 15px;
+    }
+
+    .ebook-image-wrapper {
+        height: 180px; /* Reduz a altura para telas menores */
+    }
+}
+
+@media (max-width: 320px) {
+    #ebooks h2 {
+        font-size: 1.5em;
+    }
+
+    .ebook-content {
+        padding: 10px;
+    }
+
+    .ebook-image-wrapper {
+        height: 150px; /* Reduz a altura para as menores telas */
+    }
+}
+
+/* Prevenção de Download */
+.no-download img {
+    pointer-events: none;
+    user-select: none;
 }
 
 
