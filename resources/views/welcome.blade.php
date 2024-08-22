@@ -306,6 +306,11 @@
         </div>
     </div>
 </section>
+<!-- back-to-top -->
+<button id="back-to-top" class="back-to-top">
+    <i class="bi bi-arrow-up"></i>
+</button>
+
 
  <!-- Toggle Button for Dark/Light Mode -->
  <!-- <div id="theme-toggle" class="theme-toggle">

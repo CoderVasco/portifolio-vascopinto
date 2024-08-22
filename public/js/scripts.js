@@ -156,4 +156,23 @@ document.addEventListener('DOMContentLoaded', function () {
 
    // Exibe o primeiro ebook por padrão
    ebooksSidebarItems[0].click();
+
+   const backToTopButton = document.getElementById('back-to-top');
+
+   // Mostrar o botão quando a página for rolada para baixo
+   window.addEventListener('scroll', function () {
+       if (window.scrollY > 300) {
+           backToTopButton.classList.add('show');
+       } else {
+           backToTopButton.classList.remove('show');
+       }
+   });
+
+   // Rolar suavemente para o topo da página quando o botão for clicado
+   backToTopButton.addEventListener('click', function () {
+       window.scrollTo({
+           top: 0,
+           behavior: 'smooth'
+       });
+   });
 });
