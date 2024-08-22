@@ -9,49 +9,53 @@ Este repositório contém o código-fonte do meu portfólio pessoal, onde aprese
 - [Funcionalidades](#funcionalidades)
 - [Instalação](#instalação)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Automação do Sitemap](#automação-do-sitemap)
 - [Contribuição](#contribuição)
 - [Licença](#licença)
 - [Contato](#contato)
 
 ## Visão Geral
 
-Este projeto é o meu portfólio pessoal, desenvolvido para demonstrar minhas habilidades como desenvolvedor full-stack. O site é responsivo e apresenta várias seções, como sobre mim, hobbies, portfólio, currículo, ebooks, e contato. 
+Este projeto é o meu portfólio pessoal, desenvolvido para demonstrar minhas habilidades como desenvolvedor full-stack. O site é responsivo e apresenta várias seções, como sobre mim, hobbies, portfólio, currículo, ebooks, e contato.
 
 ## Funcionalidades
 
 - Animações modernas e interativas em várias seções.
 - Proteção de imagens contra download.
-- Navegação intuitiva com animações e transições suaves. 
+- Navegação intuitiva com animações e transições suaves.
 - Apresentação de projetos em forma de sidebar com seleção dinâmica.
-- Mostrar o botão quando a página for rolada para baixo
+- Exibição de botão "Voltar ao Topo" quando a página for rolada para baixo.
+- Geração automática de sitemap para SEO otimizado.
 
 ## Instalação
 
 1. Clone o repositório:
 
-   ```bash
+   \`\`\`bash
    git clone https://github.com/vascopinto/portifolio-vascopinto.git
-   ```
+   \`\`\`
 
 2. Navegue até o diretório do projeto:
 
-   ```bash
+   \`\`\`bash
    cd portifolio-vascopinto
-   ```
+   \`\`\`
 
 3. Instale as dependências necessárias:
 
-   ```bash
+   \`\`\`bash
    npm install
-   ```
+   composer install
+   \`\`\`
 
 4. Inicie o servidor localmente:
 
-   ```bash
+   \`\`\`bash
    npm run dev
-   ```
+   php artisan serve
+   \`\`\`
 
-5. Acesse o site no navegador através de `http://localhost:8000`.
+5. Acesse o site no navegador através de \`http://localhost:8000\`.
 
 ## Tecnologias Utilizadas
 
@@ -60,6 +64,25 @@ Este projeto é o meu portfólio pessoal, desenvolvido para demonstrar minhas ha
 - **JavaScript**: Para animações e interações dinâmicas.
 - **FontAwesome** e **Bootstrap Icons**: Para ícones.
 - **HTML/CSS**: Para estrutura e estilos do site.
+- **Spatie Laravel Sitemap**: Para geração de sitemaps.
+
+## Automação do Sitemap
+
+O site possui uma funcionalidade de automação para a geração do sitemap:
+
+1. Um comando Artisan foi criado para gerar o sitemap automaticamente:
+
+   \`\`\`bash
+   php artisan sitemap:generate
+   \`\`\`
+
+2. Em produção, você pode configurar um cron job para executar esse comando periodicamente, garantindo que o Google sempre rastreie um sitemap atualizado.
+
+3. Exemplo de configuração de cron job:
+
+   \`\`\`bash
+   0 0 * * * /usr/bin/php /path/to/your/project/artisan sitemap:generate
+   \`\`\`
 
 ## Contribuição
 
