@@ -193,8 +193,10 @@ header {
 
 #about h2 {
     font-size: 2.5em;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     color: #1a1a1a;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 #about p {
@@ -226,8 +228,10 @@ header {
 
 #hobbies h2 {
     font-size: 2.5em;
+    margin-bottom: 40px;
     color: #1a1a1a;
-    margin-bottom: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 #hobbies .carousel-inner {
@@ -295,6 +299,8 @@ header {
     margin-bottom: 40px;
     font-weight: 700;
     color: #00bfa5;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 #portfolio-sidebar {
@@ -611,8 +617,10 @@ header {
 
 #ebooks h2 {
     font-size: 2.5em;
+    margin-bottom: 40px;
     color: #1a1a1a;
-    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 #ebooks-sidebar {
@@ -716,6 +724,16 @@ header {
     padding: 10px 20px;
     border-radius: 30px;
     transition: all 0.3s ease;
+    display: inline-block;
+    margin: 0 auto; /* Centraliza o botão horizontalmente */
+    text-align: center;
+}
+
+.ebook-content .btn-wrapper {
+    display: flex;
+    justify-content: center; /* Centraliza o botão horizontalmente */
+    align-items: center; /* Alinha o botão verticalmente se necessário */
+    margin-top: 20px; /* Ajuste de espaçamento superior */
 }
 
 .ebook-content .btn:hover {
@@ -723,6 +741,7 @@ header {
     color: #ffffff;
     border-color: #009688;
 }
+
 
 @media (max-width: 768px) {
     #ebooks-sidebar {

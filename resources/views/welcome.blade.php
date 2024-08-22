@@ -284,7 +284,9 @@
                     </div>
                     <h5 class="card-title">Ebook 1</h5>
                     <p class="card-text">Uma breve descrição do Ebook 1.</p>
-                    <a href="#" class="btn btn-outline-primary">Ver mais</a>
+                    <div class="btn-wrapper">
+                        <a href="#" class="btn btn-outline-primary">Ver mais</a>
+                    </div>
                 </div>
                 <div id="ebook2" class="ebook-content">
                     <div class="ebook-image-wrapper no-download">
@@ -292,7 +294,9 @@
                     </div>
                     <h5 class="card-title">Ebook 2</h5>
                     <p class="card-text">Uma breve descrição do Ebook 2.</p>
-                    <a href="#" class="btn btn-outline-primary">Ver mais</a>
+                    <div class="btn-wrapper">
+                        <a href="#" class="btn btn-outline-primary">Ver mais</a>
+                    </div>
                 </div>
                 <div id="ebook3" class="ebook-content">
                     <div class="ebook-image-wrapper no-download">
@@ -300,12 +304,15 @@
                     </div>
                     <h5 class="card-title">Ebook 3</h5>
                     <p class="card-text">Uma breve descrição do Ebook 3.</p>
-                    <a href="#" class="btn btn-outline-primary">Ver mais</a>
+                    <div class="btn-wrapper">
+                        <a href="#" class="btn btn-outline-primary">Ver mais</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 <!-- back-to-top -->
 <button id="back-to-top" class="back-to-top">
     <i class="bi bi-arrow-up"></i>
