@@ -7,12 +7,21 @@
     <meta name="description" content="Vasco Pinto - Desenvolvedor Full-stack especializado em soluções web. Explore projectos em desenvolvimento de software, consultoria TI e inovação tecnológica.">
 
     <!-- Meta Tags para Open Graph (Facebook, LinkedIn, etc.) -->
-    <meta property="og:title" content="Vasco Pinto - Desenvolvedor Full-stack">
-    <meta property="og:description" content="Explore projectos em desenvolvimento de software, consultoria TI e inovação tecnológica.">
-    <meta property="og:image" content="{{ asset('img/vp.jpg') }}">
-    <meta property="og:url" content="{{ url()->current() }}">
-    <meta name="twitter:card" content="summary_large_image">
+   <!-- Open Graph Meta Tags -->
+<meta property="og:title" content="Vasco Pinto - Desenvolvedor Full-stack">
+<meta property="og:description" content="Descubra soluções inovadoras em desenvolvimento de software, consultoria TI e tecnologia de ponta com Vasco Pinto.">
+<meta property="og:image" content="{{ asset('img/vp.jpg') }}">
+<meta property="og:url" content="{{ url()->current() }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Vasco Pinto">
+<meta property="og:locale" content="pt_PT">
 
+<!-- Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Vasco Pinto - Desenvolvedor Full-stack">
+<meta name="twitter:description" content="Explore projectos inovadores em desenvolvimento de software e consultoria tecnológica.">
+<meta name="twitter:image" content="{{ asset('img/vp.jpg') }}">
+<meta name="twitter:site" content="@VascoPinto">
     <title>@yield('title', 'Vasco Pinto - Desenvolvedor Full-stack')</title>
 
     <!-- Preload Favicon -->
